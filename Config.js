@@ -34,14 +34,14 @@ const MaskedSecurityCookie = maskCookie(SecurityCookie);
 
 module.exports = {
   bot: {
-    token: "MTQ1MzE3NzAxMTY2ODUyMTAxMA.Ggp8PB.6cCkkMlV3nV5-JAMqD1OS9xYeHfJ_G3oH6hfHk",
+    token: process.env.DISCORD_TOKEN,
     clientId: "1453177011668521010",
     guildId: "1290085306489639023",
     discordEmbedChannelId: "1312854884969873418"
   },
 
   bloxlink: {
-    apiKey: "f1b677db-72d3-4ff4-a2a1-bdb9e7d5925a"
+    apiKey: process.env.BLOXLINK_API_KEY
   },
 
   roblox: {
@@ -58,7 +58,7 @@ module.exports = {
 
   erlc: {
     baseUrl: "https://api.policeroleplay.community",
-    apiKey: "dsRRIzjBpWQlFcXUaCjL-dQlxAmQZmikuDAGSdGYvBCBqyFSPnBRlfthgUiQR", // same structure style as maskedCookie
+    apiKey: process.env.ERLC_API_KEY, // same structure style as maskedCookie
 
     endpoints: {
       v1: {
