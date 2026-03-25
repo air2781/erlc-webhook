@@ -1,0 +1,15 @@
+{
+  "logs": [
+    {
+      "id": "2263",
+      "eventName": "Purge",
+      "hosts": "<@942789806818213949> , <@1285082544353841215>",
+      "duration": "2h duh",
+      "required": "Yes",
+      "permissionBy": "no one, its a test",
+      "createdBy": "air2781",
+      "userId": "942789806818213949",
+      "timestamp": "2026-03-19T02:17:41.219Z"
+    }
+  ]
+}
